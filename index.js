@@ -5,6 +5,39 @@
 // Don't forget to include a statement to log each variable's final value to the console so you can verify that your code works!
 // **HINT! To see the output of this code, you can use the integrated terminal in VS Code. Open the terminal (View > Terminal), and then type "node index.js" to run your index.js file and see the outputs of your code! Congrats, btw - this is your first brush with Node.js, the backend, server-side version of JavaScript!
 
+let firstName = 'Ethan';
+console.log(firstName);
+
+let age = 23;
+console.log(age);
+
+let isProgrammer = true;
+console.log(isProgrammer);
+
+let canVote = true;
+console.log(canVote);
+
+let description = {firstName: 'Ethan', age: '23', isProgrammer: 'true' };
+console.log(description);
+
+let num1 = 5;
+console.log(num1);
+
+let num2 = 10;
+console.log(num2);
+
+let sum = 15;
+console.log(sum);
+
+let option = '1';
+console.log(option);
+
+let decision = '2';
+console.log(decision);
+
+let isAdult = (age >= 18) ? 'Adult' : 'Not Adult';
+console.log(isAdult);
+
 // Instructions:
 
 // 1. Declare a variable named 'firstName' and assign it a string value of your first name.
